@@ -32,7 +32,8 @@ I feel that the first option would be a better suit for the project because of t
 ### Weight Distribution
 
 
-### Method of sending Shock
+### Method of Shocking
+
 
 
 ### Additional Thoughts
