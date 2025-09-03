@@ -15,7 +15,9 @@ Simple initial ideas that could be expanded upon for the project:
 Three handles connected to a main unit that holds a microbit processor. Each of the handles will have sensors to detect pluse and how sweaty the hands of the person holding the handle is and a vibration motor or some way to shock the holder. When a button on the device is pressed a "weight" is assinged to each handle based on how nervous the user by detecting their pulse and sweat of their palm. the device will then pick a handle at random, being more likely to pick a handle with a higher weight, to shock.
 
 ### Main Unit
-The main unit of the prototype will be made out of cardboard beacuse cardboard is an easy material to work with and for the purpouses of this prototype, there are currently no other design restrictions what would require a different material.
+The main unit of the prototype will be a box made out of cardboard beacuse cardboard is an easy material to work with and for the purpouses of this prototype, there are currently no other design restrictions what would require a different material. The handle would be firmly mounted in the middle on top of the box.
+
+Alternatively the unit could have a trench for the user to rest their arm in while they grab the handle. This way the device could read the pulse from the users arm rather than their palm if the palm is too unreliable. 
 
 The internals of the main unit would be comprised of a Micro:Bit proccessor, this is because of my familiarity with Micro:Bits but may need to be changed to a different microcontroller like an Arduino if required.
 
