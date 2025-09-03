@@ -48,6 +48,8 @@ Right now the best option of the two would be the vibrating spike mainly due to 
 A list of thoughts I had during the development of this idea that might be implemented:
 - A reverse pity system where the device makes you more likley to be shocked based on how many times you haven't been.
 - A way to switch between the first two modes mentioned in the Activation / Use section.
+- A way for the device to detect the body heat of the user.
+- Polygraph API
 
 ### Similar Examples
 - **Lightning reaction reloaded**; When the button on the main unit is pressed it will go red, when it goes green players must press the button on the top of their conrolers and the last person to press their button gets shocked.
