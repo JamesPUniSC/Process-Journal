@@ -33,7 +33,7 @@ I have three ideas for how the device can be activated / will be used:
 
 3. A lose combination of the above methods, one handle connected to the main unit either by cables or being fully connected into the main unit. When the button on the handle is pressed some kind of countdown (i.e. A speaker counting down, A speaker playing a short tune, LEDs turning off) near the end of the count down a weight will be assigned based off how nervous the device thinks the user is. The device is then more likely to shock the user based on nerves in a similar range to the first idea.
 
-Right now the prefered option is the third due to having fewer inputs to manage and a lower material cost needing to only make one handle as opposed to two.
+Right now the prefered option is the third due to having fewer inputs to manage and a lower material cost needing to only make one handle as opposed to three.
 
 ### Method of sending Shock
 There are current two ideas for how the shock will be administered to the user:
