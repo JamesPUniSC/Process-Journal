@@ -77,7 +77,9 @@ the weight was set to 5% and this made the input much smoother. Then the program
 
 ## Handle and Box Prototype
 The handle was placed through a hole made in the top of the box and mounted from the inside using tape and friction within the box. From this prototype it can be seen that the handle was made too small, this is because of an issue made with the measurements, but the box itself is a perfect size to fit the electronics of the project. Additionaly, the screw holding the face of the box allows for easy access to the inside without allowing for the box to open accidentally.
+
 ![A cardboard box with a black handle coming out the top with a screw inserted in the front face](Images/PrototypeFront.JPG)
+
 ![The inside of a cardboard box with a plastic oval shape taped to the roof of the box](Images/PrototypeInternal.JPG)
 
 ## Sweat conductivity testing
@@ -85,7 +87,6 @@ To make sure that the way of testinf for sweat would work, a group member would 
 <p>The test indicated that there was infact a corilation between the conductivity of a persons palm and the amount of sweat present on their palm.</p>
 
 ![Table in a note book detailing the findings of the skin conductivity testing](Images/Table.jpg)
-
 ## Second Handle Model
 The second design for the handle was made to be bigger and the edges of the ridges were smoothed to increase the ergonomics. Holes were specifically placed on the handle to allow for a small spike to be poked through as well as additional holes for screws to be used as nodes to measure the skin conductivity. The top of the handle was made concave to allow for the users thumb to rest within it and a hole in the middle for the pulse sensor to measure from the user's thumb.The base was made wider and pins with corresponding holes were also placed in the base of the handle to allow for some structre when putting the two halfs together.
 
