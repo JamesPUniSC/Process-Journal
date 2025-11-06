@@ -82,7 +82,7 @@ The handle was placed through a hole made in the top of the box and mounted from
 
 ## Sweat conductivity testing
 To make sure that the way of testinf for sweat would work, a group member would run the same route around the campus and between each run, the conductivity of their palm would be taken four times with different distances between the positive and negative nodes on their palm.
-<p>The test indicated that there was infact a corilation between the conductivity of a persons palm and the amount of sweat present on their palm.
+<p>The test indicated that there was infact a corilation between the conductivity of a persons palm and the amount of sweat present on their palm.</p>
 
 ![Table in a note book detailing the findings of the skin conductivity testing](Images/Table.jpg)
 
@@ -102,8 +102,8 @@ My partner did the soldering for the device based on an example that was set up 
 
 ## Final Prototype
 The handle was printed too large and the pin to be inserted into one of the holes was missing due to forgetting to tell the tutors when they printed it. The increased size lead to having to make changes to the design to fit the handle, the opening in the box was made larger to acomodate the handle with the additional bonus of allowing easier access to the arduino board.
-<p>The wires used to measure the palm condctivity were fed through the snall hole ment for the pin and taped to the side of the handle where most people's palms would rest. Internally the wires were taped to the side of the handle to help hold the position of the sensors on the outside of the handle, along side the haptic motor due to not having a pin to attach it to. 
-<P>Within the box the protoboard was taped to the bottom near the back next to a power bank to allow the device to function without an external power source. The arduino was taped to the "door" of the box to allow for easy access.
+<p>The wires used to measure the palm condctivity were fed through the snall hole ment for the pin and taped to the side of the handle where most people's palms would rest. Internally the wires were taped to the side of the handle to help hold the position of the sensors on the outside of the handle, along side the haptic motor due to not having a pin to attach it to. </p>
+<P>Within the box the protoboard was taped to the bottom near the back next to a power bank to allow the device to function without an external power source. The arduino was taped to the "door" of the box to allow for easy access.</p>
 
 ![A black handle with a bright green light on the top, coming out of a carboard box with a screw on the front](Images/FinalExternal.jpg)
 ![Inside of a cardboard box with a lot of wires being fed from an arduino into a black plastic disc on the roof and a power bank connected to the arduino](Images/FinalInternal.jpg)
