@@ -62,3 +62,32 @@ A list of thoughts I had during the development of this idea that might be imple
 
 <!-- ## Image
 ![Text for accessability](Path) -->
+
+## Initial 3D modeling
+The first step that was taken was the initial 3D modeling of the handle of the device. The first handle was made to test for both the comfort of the user and to see where the user's hand would rest so that the biometric sensors could be placed appropriately.
+
+The handle was designed to be hollow to allow for wires to run internally to the sensors on the handle. The curve of the handle as well as the ridges on the front are to improve the ergonomics for the user grasping the handle.
+
+![Curved handle with ridges for figers in Blender modeling software](Images/Handle1.PNG)
+
+## Initial Programming 
+The programming for the device started with making a program to take the data from the pulse sensor and transforming it into the users BPM. First, before transforming the data, the device smooths the data using the equation: 
+smoothed variable = raw variable * weight  +  smoothed variable * (1 - weight)
+the weight was set to 5% and this made the input much smoother. Then the program checks to see if the readings go above a specified threshold, indicating a beat. when it did the program would record the time of the beat and would not record any more times until the readings went below the threshold. It would also keep note of the time of the second most recent beat, then do the calculation: 60000 / (Most recent beat - Last beat) to calculate how many times the heart beats per minute.
+
+## Handle and Box Prototype
+The handle was placed through a hole made in the top of the box and mounted from the inside using tape and friction within the box. From this prototype it can be seen that the handle was made too small, this is because of an issue made with the measurements, but the box itself is a perfect size to fit the electronics of the project. Additionaly, the screw holding the face of the box allows for easy access to the inside without allowing for the box to open accidentally.
+![A cardboard box with a black handle coming out the top with a screw inserted in the front face](Images/PrototypeFront.JPG)
+![The inside of a cardboard box with a plastic oval shape taped to the roof of the box](Images/PrototypeInternal.JPG)
+
+## Sweat conductivity testing
+To make sure that the way of testinf for sweat would work, a group member would run the same route around the campus and between each run, the conductivity of their palm would be taken four times with different distances between the positive and negative nodes on their palm.
+<p>The test indicated that there was infact a corilation between the conductivity of a persons palm and the amount of sweat present on their palm.
+
+![Table in a note book detailing the findings of the skin conductivity testing](Images/Table.jpg)
+
+## Second Handle Model
+## Programming weighted shock
+## Programing palm conductivity
+## Project soldering
+## Final Prototype
