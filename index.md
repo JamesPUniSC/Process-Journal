@@ -87,7 +87,32 @@ To make sure that the way of testinf for sweat would work, a group member would 
 ![Table in a note book detailing the findings of the skin conductivity testing](Images/Table.jpg)
 
 ## Second Handle Model
-## Programming weighted shock
+The second design for the handle was made to be bigger and the edges of the ridges were smoothed to increase the ergonomics. Holes were specifically placed on the handle to allow for a small spike to be poked through as well as additional holes for screws to be used as nodes to measure the skin conductivity. The top of the handle was made concave to allow for the users thumb to rest within it and a hole in the middle for the pulse sensor to measure from the user's thumb.The base was made wider and pins with corresponding holes were also placed in the base of the handle to allow for some structre when putting the two halfs together.
+
+![A similat handle design to the previous, however there are holes in the side, and the ridges are smoother](Images/Handle2.PNG)
+
 ## Programing palm conductivity
+One node would go to positive and the other would be read by one of the pins in the arduino, this allowed for the conductivity to be measured. An issue that was unaccounded for however was that the skin might be very conductive, as such the readings would only come back as though there was no resistance. After a couple of attempts to fix this issue by adding resistors and reduceing the power from 5V to 3.3V neither of which worked, the isse was left to fix later.
+
+## Programming weighted shock
+The weighted shock workes by taking the weight value then randomly generating a number and of the generated number is lower than the weight it would trigger the haptic motor in the handle. By default the weight is set to thirty and can reach a maximum of ninety. The BPM was weighted with thresholds, if the users bpm went above a certain threshold then the respective weight would be added to the total (+10, +20, +30). The sweat weight used a calculation, the readings would be divided by 34.1 and added to the total weight so that at maximum conductivity and additional 30 would be added to the total weight. This is done every 3 seconds that the device detects a user holding the handle using the sweat sensors.
+
 ## Project soldering
+My partner did the soldering for the device based on an example that was set up on a bread board. The wires were mainly soldered onto the positive and negative power rails on the side of a protoboard. Some of the soldering broke or was wired to the wrong polarity of power rail, and was required to be resouldered by myself. This lead to different wires being used for the palm conductivity which actually helped improve the accuracy of the readings, fixing the problem encountered earlier.
+
 ## Final Prototype
+The handle was printed too large and the pin to be inserted into one of the holes was missing due to forgetting to tell the tutors when they printed it. The increased size lead to having to make changes to the design to fit the handle, the opening in the box was made larger to acomodate the handle with the additional bonus of allowing easier access to the arduino board.
+<p>The wires used to measure the palm condctivity were fed through the snall hole ment for the pin and taped to the side of the handle where most people's palms would rest. Internally the wires were taped to the side of the handle to help hold the position of the sensors on the outside of the handle, along side the haptic motor due to not having a pin to attach it to. 
+<P>Within the box the protoboard was taped to the bottom near the back next to a power bank to allow the device to function without an external power source. The arduino was taped to the "door" of the box to allow for easy access.
+
+![A black handle with a bright green light on the top, coming out of a carboard box with a screw on the front](Images/FinalExternal.jpg)
+![Inside of a cardboard box with a lot of wires being fed from an arduino into a black plastic disc on the roof and a power bank connected to the arduino](Images/FinalInternal.jpg)
+
+## Future Improvements and Final Statement
+While the final prototype came out well there are certain areas that can be expanded upon further in the future:
+- Adding an actual shock
+- Adding a way to give feed back when the user is not shocked
+- A more secure way of holding the arduino board
+- A more reliable way to detect the sweat on the user's palm
+- Other biometric scanners
+<p>Overall the project is a good proof of concept that reacts to it's external enviroment without being directly controlled by a person, And it can be iterated upon in the future to become more reliable in detection of biometrics and the admistration of shocks.
